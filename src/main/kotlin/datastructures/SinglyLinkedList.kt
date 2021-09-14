@@ -54,5 +54,6 @@ class SinglyLinkedList<T> {
         } else {
             t.next = newNode
         }
+        size++
     }
 }
